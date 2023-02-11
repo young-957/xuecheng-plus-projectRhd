@@ -13,9 +13,19 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>xuecheng-plus-parent</name>
     <description>xuecheng-plus-parent</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
     <packaging>pom</packaging>
     <properties>
-        <java.version>17</java.version>
+        <java.version>8</java.version>
 
 <!--            <java.version>1.8</java.version>-->
             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
